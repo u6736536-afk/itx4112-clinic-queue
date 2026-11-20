@@ -44,7 +44,7 @@ h2 {
 
 /* TODO 2: Style the form with Flexbox
    Uncomment the 3 Flexbox lines below so inputs and button sit in one horizontal row */
-.queue-form {
+  .queue-form {
   /* display: flex; */
   /* gap: 16px; */
   /* align-items: end; */

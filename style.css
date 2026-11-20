@@ -46,13 +46,12 @@ h2 {
    Uncomment the 3 Flexbox lines below so inputs and button sit in one horizontal row */
 .queue-form {
   display: flex;
-  flex-direction: column; /* Changed to column to stack vertically */
   gap: 16px;
-  align-items: stretch; /* Changed from 'end' to stretch so they align left */
+  align-items: end;
 }
 
 .field {
-  /* flex: 1; Removed to prevent vertical stretching in column layout */
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 6px;

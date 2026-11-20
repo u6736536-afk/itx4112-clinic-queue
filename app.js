@@ -61,4 +61,4 @@ event.preventDefault();
 
   // Reset input
   codeInput.value = '';
-);
+});

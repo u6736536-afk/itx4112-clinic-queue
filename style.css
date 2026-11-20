@@ -108,7 +108,7 @@ input, select, button {
 /* TODO 3: Add the mobile media query
    Below 600px, switch .queue-form from a row to a column (flex-direction: column;) */
 @media (max-width: 600px) {
-  .queue-form {
+  .queue-form {     flex-direction: column;
     /* Add flex-direction: column; here */
   }
 }
